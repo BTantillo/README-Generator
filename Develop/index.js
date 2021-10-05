@@ -72,7 +72,7 @@ const questions = () => {
         {
             type: 'input',
             name: 'instructions',
-            message: 'Provide the installation information about your project:',
+            message: 'Please provide the installation instructions about your project:',
             when: ({ installInstruction }) => {
                 if (installInstruction) {
                     return true;
@@ -90,7 +90,7 @@ const questions = () => {
         {
             type: 'input',
             name: 'information',
-            message: 'Provide the Usage Information about your project:',
+            message: 'Please provide the Usage Information about your project:',
             when: ({ usageInformation }) => {
                 if (usageInformation) {
                     return true;
@@ -108,7 +108,7 @@ const questions = () => {
         {
             type: 'input',
             name: 'guidelines',
-            message: 'Provide the Contribution Guidelines about your project:',
+            message: 'Please provide the details of all the contributions to your project:',
             when: ({ contributionGuidelines }) => {
                 if (contributionGuidelines) {
                     return true;
@@ -125,8 +125,8 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'instructions',
-            message: 'Provide the Test Instructions about your project:',
+            name: 'testing',
+            message: 'Please provide the Test Instructions for your project:',
             when: ({ testInstructions }) => {
                 if (testInstructions) {
                     return true;
@@ -139,7 +139,7 @@ const questions = () => {
             type: 'checkbox' ,
             name: 'license',
             message: 'What License did you use in this project? (Check the box that applys)',
-            choices: ['MIT', 'APACHE', 'GNU', 'BSD3'],
+            choices: ['MIT', 'APACHE', 'GNU', 'BSD3','NONE'],
          },
 
 
@@ -152,14 +152,14 @@ const questions = () => {
 questions()
   .then((readmeData) => {
     console.log(readmeData);
-    writeToFile("readme.md", generateMarkdown(readmeData));
+    return fs.writeFileSync("./readme.md", generateMarkdown.generateMarkdown(readmeData));
   })
   .catch((err) => {
     if (err) {
       throw err;
     }
   });
-  // TODO: Create a function to write README file
+//   // TODO: Create a function to write README file
 function writeToFile(filename, readmeData) {
     console.log(filename, readmeData);
     return fs.writeFileSync(path.join(process.cwd(), filename), readmeData);
