@@ -1,8 +1,8 @@
 
-  ## nope
+  ## Read Me Gen
 
-  ### Created by: bt
-  <a href="https://github.com/bt">Github: bt </a>
+  ### Created by: BTantukkl====
+  <a href="https://github.com/BTantukkl====">Github: BTantukkl==== </a>
 
   ## Table Of Contents
   
@@ -16,24 +16,24 @@
   
 
   ## Project Description
-  sdsdsdsd
+  undefined
 
   ## License Information
-  ![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)
+  ![license](https://img.shields.io/badge/License--brightgreen.svg)
 
   ## Installion Instructions
-  sdssds
+  undefined
 
   ## Usage Information
-  sdsdsd
+  undefined
 
   ## Project Contributions
-  ssdsd
+  undefined
 
   ## Testing Instructions
-  sdsdsd
+  undefined
 
   ## Contact 
-  sdsds
+  sdfsdsd
 
  
