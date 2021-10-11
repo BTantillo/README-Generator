@@ -1,8 +1,8 @@
 
-  ## Read Me Gen
+  ## d
 
-  ### Created by: BTantukkl====
-  <a href="https://github.com/BTantukkl====">Github: BTantukkl==== </a>
+  ### Created by: ty
+  <a href="https://github.com/ty">Github: ty </a>
 
   ## Table Of Contents
   
@@ -19,7 +19,7 @@
   undefined
 
   ## License Information
-  ![license](https://img.shields.io/badge/License--brightgreen.svg)
+  ![license](https://img.shields.io/badge/License-OTHER-brightgreen.svg)
 
   ## Installion Instructions
   undefined
@@ -34,6 +34,6 @@
   undefined
 
   ## Contact 
-  sdfsdsd
+  ty
 
  

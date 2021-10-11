@@ -139,7 +139,7 @@ const questions = () => {
             type: 'checkbox' ,
             name: 'license',
             message: 'What License did you use in this project? (Check the box that applys)',
-            choices: ['MIT', 'APACHE', 'GNU', 'BSD3','NONE'],
+            choices: ['MIT', 'APACHE', 'GNU', 'BSD3','NONE', 'OTHER'],
          },
 
 
