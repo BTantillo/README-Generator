@@ -24,4 +24,4 @@ https://watch.screencastify.com/v/FIxxe7GNv6X1b1nOUEWa
 
 ## Contributions
 
-*Made with blood, sweat, and tears by Ben Tantillo
+*Made by Ben Tantillo
